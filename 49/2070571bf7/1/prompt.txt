@@ -1,0 +1,19 @@
+Research the caveman-opencode-plugin repository at https://github.com/dantesCode/caveman-opencode-plugin
+
+I need to understand:
+1. **What it does**: What is this plugin? What functionality does it provide?
+2. **Structure**: How is the repo organized? What files does it contain?
+3. **Plugin API**: How does it register as an opencode plugin? What hooks/events does it use?
+4. **Dependencies**: What does it depend on?
+5. **Build/publish setup**: How is it built and published?
+6. **Relationship to DCP**: How does it relate to @tarquinen/opencode-dcp?
+7. **Configuration**: How is it configured by users?
+
+Also research:
+- The @tarquinen/opencode-dcp package - what is it? How does context compression work?
+- The opencode plugin API in general - what hooks are available?
+- Any other opencode plugins that exist as examples
+
+Search GitHub for "opencode plugin" and "opencode-dcp" to find more examples.
+
+Return: complete analysis of the plugin structure, API patterns, and how to create a similar plugin.
