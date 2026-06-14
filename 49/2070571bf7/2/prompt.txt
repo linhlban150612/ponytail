@@ -1,0 +1,10 @@
+Explore the ponytail repo at /home/linhlb/work/ponytail for:
+
+1. **Test patterns**: Are there tests? What framework? How are they run? Check for `*.test.ts`, `*.spec.ts`, `test/`, `__tests__/` directories.
+2. **Dependency analysis**: Read package.json fully. What dependencies exist? What's the TypeScript setup?
+3. **npm/yarn/pnpm**: Which package manager? Check for lockfiles.
+4. **CI/CD**: Check `.github/workflows/` for any CI configuration.
+5. **Linting/formatting**: ESLint, Prettier configs?
+6. **Publishing setup**: Is there a `publishConfig`, `files` field, or `.npmignore`?
+
+Return: test framework and patterns, full dependency list, package manager, CI config, and publishing setup details.
