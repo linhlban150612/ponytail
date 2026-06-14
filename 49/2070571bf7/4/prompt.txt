@@ -1,0 +1,10 @@
+Explore the ponytail repo at /home/linhlb/work/ponytail for:
+
+1. **Project structure**: What's the directory layout? What language/framework? Package manager?
+2. **Existing plugin patterns**: Are there any existing opencode plugins? Check `.opencode/plugins/`, `package.json`, any plugin-related files.
+3. **Build system**: How is the project built? TypeScript config? Build scripts?
+4. **Configuration files**: Check `opencode.json`, `opencode.jsonc`, `.opencode/` directory structure.
+5. **AGENTS.md and project conventions**: What coding standards exist?
+6. **Existing dependencies**: What's in package.json? Any opencode-related deps already?
+
+Return: complete directory tree (depth 3), key config file contents, existing plugin code if any, package.json contents, and any opencode-related configuration.

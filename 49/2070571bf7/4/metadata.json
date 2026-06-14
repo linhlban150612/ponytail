@@ -1,0 +1,66 @@
+{
+  "cli_version": "0.7.5",
+  "checkpoint_id": "492070571bf7",
+  "session_id": "ses_139a677d5ffe8EaqLlXRzRhLGN",
+  "strategy": "manual-commit",
+  "created_at": "2026-06-14T14:26:04.597772552Z",
+  "branch": "feat/ponytail-opencode-plugin",
+  "checkpoints_count": 0,
+  "files_touched": [
+    "ponytail-opencode-plugin/build.ts",
+    "ponytail-opencode-plugin/package.json",
+    "ponytail-opencode-plugin/ponytail.json.example",
+    "ponytail-opencode-plugin/src/__tests__/commands.test.ts",
+    "ponytail-opencode-plugin/src/__tests__/config.test.ts",
+    "ponytail-opencode-plugin/src/__tests__/state.test.ts",
+    "ponytail-opencode-plugin/src/commands/mode.ts",
+    "ponytail-opencode-plugin/src/commands/review.ts",
+    "ponytail-opencode-plugin/src/config.ts",
+    "ponytail-opencode-plugin/src/index.ts",
+    "ponytail-opencode-plugin/src/skills/ponytail.ts",
+    "ponytail-opencode-plugin/src/state.ts",
+    "ponytail-opencode-plugin/tsconfig.json"
+  ],
+  "agent": "OpenCode",
+  "model": "",
+  "turn_id": "76f64d0c175e",
+  "token_usage": {
+    "input_tokens": 33990,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 50688,
+    "output_tokens": 4150,
+    "api_call_count": 5
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-06-14T14:26:04.582984052Z",
+    "agent_lines": 479,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 479,
+    "total_lines_changed": 479,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 1138,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".claude/agents/entire-search.md": 25,
+        ".claude/settings.json": 84,
+        ".codex/agents/entire-search.toml": 23,
+        ".codex/config.toml": 3,
+        ".codex/hooks.json": 52,
+        ".cursor/hooks.json": 40,
+        ".github/hooks/entire.json": 61,
+        ".opencode/memory-recovery.log": 634,
+        ".opencode/plugins/entire.ts": 216
+      }
+    }
+  ]
+}
