@@ -1,0 +1,37 @@
+{
+  "cli_version": "0.7.5",
+  "checkpoint_id": "492070571bf7",
+  "strategy": "manual-commit",
+  "branch": "feat/ponytail-opencode-plugin",
+  "checkpoints_count": 0,
+  "files_touched": [
+    "ponytail-opencode-plugin/build.ts",
+    "ponytail-opencode-plugin/package.json",
+    "ponytail-opencode-plugin/ponytail.json.example",
+    "ponytail-opencode-plugin/src/__tests__/commands.test.ts",
+    "ponytail-opencode-plugin/src/__tests__/config.test.ts",
+    "ponytail-opencode-plugin/src/__tests__/state.test.ts",
+    "ponytail-opencode-plugin/src/commands/mode.ts",
+    "ponytail-opencode-plugin/src/commands/review.ts",
+    "ponytail-opencode-plugin/src/config.ts",
+    "ponytail-opencode-plugin/src/index.ts",
+    "ponytail-opencode-plugin/src/skills/ponytail.ts",
+    "ponytail-opencode-plugin/src/state.ts",
+    "ponytail-opencode-plugin/tsconfig.json"
+  ],
+  "sessions": [
+    {
+      "metadata": "/49/2070571bf7/0/metadata.json",
+      "transcript": "/49/2070571bf7/0/full.jsonl",
+      "content_hash": "/49/2070571bf7/0/content_hash.txt",
+      "prompt": "/49/2070571bf7/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 48,
+    "cache_creation_tokens": 71148,
+    "cache_read_tokens": 424586,
+    "output_tokens": 2793,
+    "api_call_count": 8
+  }
+}

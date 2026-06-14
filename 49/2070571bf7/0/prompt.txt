@@ -1,0 +1,13 @@
+Review the ponytail repo at /home/linhlb/work/ponytail to assess:
+
+1. **Is this repo already an opencode plugin?** Check if ponytail itself is a plugin or a project that uses plugins.
+2. **What would "forking" mean here?** The user wants to "create a fork of ponytail repo" as an opencode plugin. Assess whether ponytail is already structured as a plugin or needs restructuring.
+3. **Existing opencode integration**: Check all opencode-related files:
+   - `.opencode/` directory contents
+   - `opencode.json` or `opencode.jsonc`
+   - Any plugin registrations
+   - AGENTS.md references to opencode
+4. **What's the relationship between ponytail and caveman?** Both seem to be opencode customization layers. How do they relate?
+5. **Risks**: What could go wrong creating a plugin fork?
+
+Return: assessment of current state, what needs to change, and risks.
