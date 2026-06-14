@@ -1,0 +1,13 @@
+Research how opencode plugins work by examining:
+
+1. Check if there's a `node_modules/@opencode` or similar directory with plugin examples
+2. Look at `/home/linhlb/work/ponytail/.opencode/plugins/entire.ts` - read its full contents
+3. Search for any opencode plugin documentation or examples in the repo
+4. Check `/home/linhlb/.config/opencode/` for plugin configurations, especially:
+   - Any existing plugin registrations
+   - Plugin configuration patterns
+   - The caveman plugin if installed
+5. Search for `opencode-dcp` or `@tarquinen` references anywhere in the system
+6. Look at `/home/linhlb/.config/opencode/node_modules/` for any opencode plugin packages
+
+Return: full contents of any plugin files found, plugin registration patterns, and how plugins integrate with opencode.
